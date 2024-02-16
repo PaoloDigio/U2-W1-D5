@@ -10,23 +10,10 @@ body {
     line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 8px;
-}
-
 h1 {
     display: block;
     font-size: 4em;
     margin-top: 0.67em;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: 500;
     font-family: "Spectral", serif;
 }
@@ -36,8 +23,6 @@ h2 {
     font-size: 1.5em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: bold;
 }
 
@@ -46,8 +31,6 @@ h3 {
     font-size: 1.17em;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: bold;
 }
 
@@ -56,37 +39,27 @@ h4 {
     font-size: 1em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: bold;
 }
 
 h5 {
     display: block;
     font-size: 0.83em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     font-weight: bold;
 }
 
 h6 {
     display: block;
     font-size: 0.67em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     font-weight: bold;
 }
 
 p {
     display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
     font-size: 0.85rem;
     opacity: 0.8;
 }
@@ -94,6 +67,12 @@ p {
 header {
     background-color: #ffc017;
     border-bottom: 1px solid #2d2d2d;
+}
+
+header p {
+    opacity: 1;
+    font-size: 0.92rem;
+    padding-bottom: 2.5rem;
 }
 
 nav {
@@ -186,14 +165,10 @@ button a {
     flex-wrap: wrap;
 }
 
-.left-section button {
-    margin-block: 2rem;
-}
-
 .card {
     display: flex;
     gap: 1rem;
-    width: 330px;
+    width: 33%;
     margin-bottom: 1rem;
 }
 
@@ -268,6 +243,7 @@ button a {
 .footer-menu {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
